@@ -10,3 +10,61 @@
     display: table;
     clear: both;
 }
+
+section {
+    color: #33475b
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.barra-fixed {
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 12px 0;
+    background-color: #f5f8fa;
+    border: 1px solid #cbd6e2;
+    z-index: 99999;
+}
+
+.scomparsa {
+    width: 100%;
+    position: relative;
+    top: 0;
+    height: 72px;
+}
+
+.navbar {
+    position: relative;
+    height: 82px;
+    padding: 12px 0;
+    background-color: #ffffff;
+}
+
+.learn-more {
+    position: relative;
+    height: 92px;
+    padding: 20px 0;
+    background-color: #425b76;
+}
+
+.container-header {
+    height: 750px;
+    position: relative;
+    background-color: #fff2ee;
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg');
+}
+
+.sfondo-verde {
+    position: relative;
+    height: 184px;
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/Tablet-Grass-with-Stroke.svg');
+    background-size: cover;
+    border-bottom: 5px solid #2d3e50;
+}
