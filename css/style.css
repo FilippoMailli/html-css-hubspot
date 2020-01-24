@@ -11,9 +11,13 @@
     clear: both;
 }
 
+/* TESTA DELLA PAGINA, LA PARTE ALTA */
+
 section {
     color: #33475b
 }
+
+/* BARRA FIXED DI TUTTA LA PAGINA */
 
 .container {
     width: 80%;
@@ -29,9 +33,118 @@ section {
     left: 0;
     padding: 12px 0;
     background-color: #f5f8fa;
-    border: 1px solid #cbd6e2;
+    border-bottom: 1px solid #cbd6e2;
     z-index: 99999;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
 }
+
+.sinistra-fixed {
+    position: absolute;
+    top: 50%;
+    margin: 0 200px;
+    vertical-align: middle;
+    transform: translateY(-50%);
+}
+
+.mappamondo-fixed {
+    height: 24.3333px;
+    width: 16px;
+    margin-right: 10px;
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin: auto 0;
+}
+
+.mappamondo-fixed-english {
+    height: 24px;
+    width: 50px;
+    margin-left: 30px;
+    float: left;
+}
+
+.sinistra-fixed i {
+    height: 15px;
+    width: 15px;
+    font-size: 15px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.contatti-fixed {
+    height: 24px;
+    width: 90px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    border-left: 2px solid #cbd6e2;
+}
+
+.destra-fixed {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: 0 200px;
+    vertical-align: middle;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.cerca-fixed {
+    height: 15px;
+    width: 20px;
+    float: left;
+}
+
+.cerca-fixed i {
+    color: #00a4bd;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.login-fixed {
+    float: left;
+}
+
+.login-login-fixed {
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    padding: 9px 16px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.free-fixed {
+    float: left;
+}
+
+.login-free-fixed {
+    border: 1px solid #ff7a59;
+    color: #ffffff;
+    padding: 8px 16px;
+    background-color: #ff7a59;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .scomparsa {
     width: 100%;
