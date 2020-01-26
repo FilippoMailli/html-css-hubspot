@@ -21,7 +21,7 @@ section {
 
 .container {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ section {
 .sinistra-fixed {
     position: absolute;
     top: 50%;
-    margin: 0 200px;
+    margin: 0 300px;
     vertical-align: middle;
     transform: translateY(-50%);
 }
@@ -64,6 +64,10 @@ section {
     width: 50px;
     margin-left: 30px;
     float: left;
+}
+
+i {
+    color: #7c98b6;
 }
 
 .sinistra-fixed i {
@@ -88,7 +92,7 @@ section {
     position: absolute;
     top: 50%;
     right: 0;
-    margin: 0 200px;
+    margin: 0 300px;
     vertical-align: middle;
     transform: translateY(-50%);
     font-size: 18px;
@@ -135,16 +139,9 @@ section {
     border-radius: 5%;
 }
 
+/* FINE BARRA FIXED */
 
-
-
-
-
-
-
-
-
-
+/* INIZIO BARRA DI NAVIGAZIONE */
 
 .scomparsa {
     width: 100%;
@@ -155,23 +152,141 @@ section {
 
 .navbar {
     position: relative;
+    transform: translateY(25%);
     height: 82px;
-    padding: 12px 0;
+    margin: 0 300px;
     background-color: #ffffff;
 }
+
+.logo-navbar {
+    height: 100%;
+    width: 106px;
+    background-image: url('https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg');
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.destra-navbar {
+    height: 100%;
+    float: right;
+    color: #33475b;
+}
+
+.lista-navbar li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.lista-navbar li i {
+    margin-left: 10px;
+}
+
+/* FINE BARRA DI NAVIGAZIONE */
+
+/* INIZIO BARRA DI "LEARN MORE" */
 
 .learn-more {
     position: relative;
     height: 92px;
+    width: 100%;
     padding: 20px 0;
     background-color: #425b76;
 }
+
+.sinistra-learn-more {
+    height: 100%;
+    width: 60%;
+    float: left;
+    color: white;
+    margin-left: 340px;
+}
+
+.sinistra-learn-more p {
+    font-size: 16px;
+}
+
+.destra-learn-more {
+    height: 100%;
+    float: right;
+    color: #425b76;
+    margin-right: 300px;
+}
+
+.destra-learn-more-btn {
+    background-color: white;
+    border-radius: 5%;
+    padding: 12px 24px;
+    border: none;
+    transform: translateY(25%);
+}
+
+/* FINE BARRA DI "LEARN MORE" */
+
+/* INIZIO HEADER, CORPO PRINCIPALE INTESTAZIONE */
 
 .container-header {
     height: 750px;
     position: relative;
     background-color: #fff2ee;
     background-image: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg');
+}
+
+.sinistra-header {
+    height: 60%;
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    float: left;
+    margin-left: 300px;
+}
+
+.titolo-header {
+    height: 35%;
+    width: 100%;
+}
+
+.titolo-header h1 {
+    font-weight: 700;
+    line-height: 65px;
+    font-size: 55px;
+}
+
+.paragrafo-header {
+    height: 25%;
+    width: 100%;
+}
+
+.paragrafo-header p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 0 0;
+}
+
+.free-header {
+    height: 20%;
+    width: 50%;
+}
+
+.free-header button {
+    border: none;
+    color: #ffffff;
+    padding: 26px 48px;
+    background-color: #ff7a59;
+    border-radius: 5%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.minimized-header {
+    height: 20%;
+    width: 40%;
+}
+
+.minimized-header p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
 }
 
 .sfondo-verde {
