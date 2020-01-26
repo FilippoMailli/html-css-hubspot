@@ -296,3 +296,32 @@ i {
     background-size: cover;
     border-bottom: 5px solid #2d3e50;
 }
+
+/* FINE DELLA PRIMA SEZIONE */
+
+/* INIZIO DELLA SECONDA SEZIONE */
+
+.corpo-centrale {
+    position: relative;
+    height: 1521px;
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.testa-corpo-centrale {
+    height: 466px;
+    width: 70%;
+    left: 50%;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+    background-color: green;
+}
+
+.schede-corpo-centrale {
+    height: 943px;
+    width: 80%;
+    margin: 0 auto 112px auto;
+    background-color: blue;
+}
