@@ -547,11 +547,33 @@ i {
 }
 
 .riga-1 {
+    position: relative;
     height: 100%;
     width: 25%;
-    border: 1px solid white;
+    border-right: 1px solid white;
     float: left;
 }
+
+.riga-1 img {
+    position: relative;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+
+.riga-1 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 40px 0 0 0;
+}
+
+.riga-1 p {
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 14px;
+}
+
 
 .dati-riga-2 {
     height: 50%;
@@ -561,6 +583,95 @@ i {
 .riga-2 {
     height: 100%;
     width: 25%;
-    border: 1px solid white;
+    border-top: 1px solid white;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.riga-2 img {
+    position: relative;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+
+.riga-2 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 40px 0 0 0;
+}
+
+#growth h2 {
+    margin-top: 50px;
+}
+
+#growth {
+    border-right: none;
+}
+
+.piu::after {
+    content: '+';
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+}
+
+/* FINE SCHEDA DATI */
+
+/* INIZIO SCHEDA BUSINESS */
+
+.business {
+    height: 291px;
+    color: #33475b;
+}
+
+.business-div {
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.business-sinistra {
+    height: 100%;
+    width: 270px;
+    padding: 20px 40px 20px 20px;
     float: left;
 }
+
+.business-destra {
+    height: 100%;
+    width: 600px;
+    float:right;
+}
+
+.business-fila-1 {
+    height: 50%;
+    width: 100%;
+}
+
+.business-fila-2 {
+    height: 50%;
+    width: 100%;
+}
+
+.fila-1-1 {
+    height: 100%;
+    width: 25%;
+    padding: 20px;
+    float: left;
+}
+
+.fila-1-1 img {
+    max-width: 100%;
+}
+
+#sposta-su {
+    padding-top: 0;
+}
+
+/* FINE SCHEDA BUSINESS */
+
+/* INIZIO SCHEDA FACCIA TIZIO */
