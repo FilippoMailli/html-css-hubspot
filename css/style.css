@@ -306,6 +306,7 @@ i {
 }
 
 .corpo-centrale {
+    position: relative;
     height: 1521px;
     width: 80%;
     max-width: 1300px;
@@ -351,6 +352,7 @@ i {
     color: #33475b;
     background-color: white;
     padding: 32px;
+    margin-bottom: 32px;
 }
 
 .prima-scheda-corpo-centrale-sinistra {
@@ -414,4 +416,84 @@ i {
     height: 18px;
     float: left;
     margin: 3px;
+}
+
+.tre-schede-prima {
+    height: 604px;
+    width: 301px;
+    float: left;
+    margin-right: 32px;
+    padding: 32px;
+    background-color: white;
+}
+
+.scheda-parte-alta {
+    height: 157px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.scheda-parte-bassa {
+    height: 380px;
+    width: 236px;
+    color: rgb(51, 71, 91);
+}
+
+.scheda-parte-bassa h4 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 11px 0;
+}
+
+.scheda-parte-bassa p {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 14px 0;
+    line-height: 22px;
+}
+
+#popular {
+    border-top: 1px solid #e0e6ed;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    margin: 26px 0 15px 0;
+    padding-top: 26px;
+    text-align: center;
+}
+
+#popular-list {
+    list-style: none;
+}
+
+.popular-list-item {
+    margin: 0 20px 5px 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.popular-list-item::before {
+    content: '';
+    background: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg") no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+
+.get-started-btn {
+    padding: 12px 24px;
+    border: none;
+    color: #ffffff;
+    margin: 20px auto;
+    background-color: #ff7a59;
+    border-radius: 5%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 25%;
 }
