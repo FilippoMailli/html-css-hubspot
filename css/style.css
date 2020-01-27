@@ -301,27 +301,117 @@ i {
 
 /* INIZIO DELLA SECONDA SEZIONE */
 
+.main-body {
+    background-color: #f5f8fa;
+}
+
 .corpo-centrale {
-    position: relative;
     height: 1521px;
     width: 80%;
     max-width: 1300px;
     margin: 0 auto;
-    background-color: red;
 }
 
 .testa-corpo-centrale {
     height: 466px;
     width: 70%;
-    left: 50%;
     margin: 0 auto;
-    padding: 100px 0 50px 0;
-    background-color: green;
+    padding: 100px 70px 50px 0;
+    text-align: center;
+    color: rgb(51, 71, 91);
+}
+
+.testa-corpo-centrale img {
+    max-width: 260px;
+}
+
+.testa-corpo-centrale h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.testa-corpo-centrale p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .schede-corpo-centrale {
     height: 943px;
     width: 80%;
     margin: 0 auto 112px auto;
-    background-color: blue;
+}
+
+.prima-scheda-corpo-centrale {
+    width: 973px;
+    height:286px;
+    position: relative;
+    text-align: center;
+    color: #33475b;
+    background-color: white;
+    padding: 32px;
+}
+
+.prima-scheda-corpo-centrale-sinistra {
+    float: left;
+    height: 222px;
+    width: 317px;
+    padding: 0 9%;
+}
+
+.centrale-sinistra-btn {
+    margin-top: 50px;
+    border: none;
+    color: #ffffff;
+    padding: 12px 24px;
+    background-color: #ff7a59;
+    border-radius: 5%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.prima-scheda-corpo-centrale-destra {
+    height: 222px;
+    text-align: left;
+    color: rgb(51, 71, 91);
+}
+
+.prima-scheda-corpo-centrale-destra h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 11px 0;
+}
+
+.prima-scheda-corpo-centrale-destra p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.75px;
+    margin: 14px 0;
+}
+
+.prima-scheda-corpo-centrale-destra h4 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22.75px;
+    margin:26px 0 15px 0;
+}
+
+.prima-scheda-corpo-centrale-destra ul {
+    list-style: none;
+}
+
+.prima-scheda-corpo-centrale-destra li {
+    margin: 0 20px;
+    float: left;
+}
+
+.prima-scheda-corpo-centrale-destra li::before {
+    background: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg') no-repeat;
+    content: '';
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 3px;
 }
