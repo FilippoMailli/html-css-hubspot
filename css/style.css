@@ -672,6 +672,202 @@ i {
     padding-top: 0;
 }
 
+.business-sinistra p {
+    line-height: 31px;
+    letter-spacing: 0.5px
+}
+
+.business-sinistra h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 52px;
+    margin-bottom: 20px;
+}
+
 /* FINE SCHEDA BUSINESS */
 
 /* INIZIO SCHEDA FACCIA TIZIO */
+
+.faccia {
+    color: #33475b;
+    height: 700px;
+}
+
+.scheda-faccia {
+    height: 100%;
+    padding: 120px 0;
+}
+
+.scheda-principale-faccia {
+    position: relative;
+    width: 1080px;
+    height: 440px;
+    margin: auto auto;
+}
+
+.faccia-sinistra {
+    position: absolute;
+    width: 486px;
+    height: 336;
+    float: left;
+    top: 50px;
+}
+
+.faccia-sinistra h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.faccia-sinistra p {
+    margin: 16px 0;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.faccia-sinistra button {
+    padding: 26px 48px;
+    border: none;
+    color: #ffffff;
+    background-color: #ff7a59;
+    border-radius: 5%;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+#rimpicciolisci {
+    font-size: 12px;
+}
+
+.faccia-destra {
+    height: 100%;
+    width: 350px;
+    float: right;
+}
+
+.faccia-destra img {
+    max-width: 100%;
+}
+
+/* FINE SCHEDA FACCIA TIZIO */
+
+/* INIZIO PARTE FINALE */
+
+footer {
+    height: 657px;
+    padding-top: 92px;
+    background-color: #33475b;
+    color: white;
+}
+
+.footer {
+    width: 1144px;
+    height: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.riga-footer {
+    position: relative;
+    height: 324px;
+}
+
+.blocco1-footer {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.blocco1-footer ul {
+    list-style: none;
+}
+
+.blocco1-footer li {
+    padding: 8px 0;
+    color: #cbd6e2;
+    font-size: 14px;
+}
+
+#titolo {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+#tools {
+    color: white;
+}
+
+#tools i {
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+.contact {
+    border: none;
+    color: #33475b;
+    padding: 8px 16px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    border-radius: 5%;
+}
+
+.contatti-lista {
+    float: left;
+}
+
+.contatti-lista i {
+    font-size: 22px;
+    font-weight: 900;
+    color: #cbd6e2;
+    padding-right: 24px;
+}
+
+.lingue {
+    height: 106px;
+    width: 60%;
+    padding: 32px 0;
+    margin: 0 auto;
+    color: #cbd6e2
+}
+
+.lingue ul {
+    list-style: none;
+}
+
+.lingue li {
+    float: left;
+    padding: 0 16px;
+}
+
+.legal-stuff {
+    height: 135px;
+    border-top: 1px solid #cbd6e2;
+    color: #cbd6e2;
+    padding: 32px 0;
+}
+
+.legal-stuff-sinistra {
+    float: left;
+}
+
+.legal-stuff-destra {
+    float: right;
+}
+
+.legal-stuff-destra ul {
+    list-style: none;
+}
+
+.legal-stuff-destra li {
+    float: left;
+    padding-right: 20px;
+}
+
+/* FINE PARTE FINALE */
+
+/* FINE PROGETTO!! */
